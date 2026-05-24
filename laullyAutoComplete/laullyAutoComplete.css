@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+form {
+  margin: 2%;
+}
+input[type=text] {
+  height: 35px;
+  width: 293px;
+  border: none;
+  padding: 6px;
+  background-color: rgb(231, 229, 229);
+}
+input[type=submit] {
+  height: 35px;
+  width: 75px;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  background-color: rgb(42, 99, 118);
+}
+#options-cont {
+  display: block;
+  position: relative;
+  z-index: 10;
+  width: 293px;
+  border: 1px solid rgb(202, 202, 202);
+  border-top: none;
+  border-bottom: none;
+}
+.each-option {
+  height: 36px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-bottom: 1px solid rgb(202, 202, 202);
+}
+.each-option:hover {
+  cursor: pointer;
+  background-color: rgb(42, 99, 118);
+}
+.each-option:hover p {
+  color: white
+}
+.each-option p {
+  color: rgb(46, 46, 46);
+  width: 90%;
+  margin-top: 5px;
+  margin-left: 2%;
+}
+.active {
+  background-color: rgb(42, 99, 118);
+}
+.active p {
+  color: white
+}
